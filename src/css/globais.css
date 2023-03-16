@@ -33,7 +33,7 @@ html {
   }
 
   .redes-sociais a {
-    display: inline-block;
+    display: inline-block; /* para mexer nos valores de largura e altura */
     width: 40px;
     height: 40px;
     font-size: 1.8rem;
@@ -45,7 +45,7 @@ html {
   }
   
   .redes-sociais a i {
-    line-height: 40px;
+    line-height: 40px; /*centralizar na linha mesmo, height do a*/
   }
   
   .redes-sociais a:hover {
