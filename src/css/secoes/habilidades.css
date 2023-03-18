@@ -1,10 +1,7 @@
 /* HABILIDADES */
 .habilidades .container-habilidades {    
     text-align: center;    
-    display: flex;
-    justify-content: center;    
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .habilidades .container-habilidades .informacoes{
@@ -22,7 +19,6 @@
 }
 
 .habilidades .container-habilidades .informacoes:hover p,
-.habilidades .container-habilidades .informacoes:hover h3,
 .habilidades .container-habilidades .informacoes:hover .logo i{
     color: var(--cor-primaria);
 }
